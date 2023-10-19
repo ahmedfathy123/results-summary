@@ -1,0 +1,524 @@
+.container {
+    display: flex;
+
+
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+
+
+/* start Result */
+
+.Result {
+
+    box-sizing: content-box;
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    display: inline;
+    border-radius: 10px;
+    width: 275px;
+
+    float: left;
+
+
+
+}
+
+
+.Result h2 {
+
+    color: hsl(241, 100%, 89%);
+
+    
+}
+
+.Result .circle {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    margin-left: 40px;
+
+
+
+}
+
+.Result .circle h3 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 50px;
+    color: white;
+}
+
+.Result .circle h4 {
+    position: absolute;
+    margin-left: 80px;
+
+    margin-top: 120px;
+    color: hsl(241, 100%, 89%);
+}
+
+.Result h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Result p {
+    width: 180px;
+
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+}
+
+
+
+
+
+/* end Result */
+
+/* start Summary */
+
+.Summary {
+    box-sizing: content-box;
+    float: left;
+    display: inline;
+
+    width: 350px;
+
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+img {
+    margin-left: 20px;
+}
+
+.Summary h2 {
+    color: hsl(224, 30%, 27%);
+    position: relative;
+    left: -90px;
+}
+.Summary h4{
+    color: hsl(224, 30%, 27%);
+
+}
+.Summary span{
+    color: hsl(241, 100%, 89%);
+}
+
+.Summary .Reaction {
+    width: 290px;
+    margin-left: 40px;
+    display: flex;
+    color: hsl(0, 100%, 67%);
+
+    background: rgba(255, 87, 87, .1);
+    border-radius: 10px;
+
+
+
+}
+
+
+.Summary .Reaction div h3 {
+    position: relative;
+    left: 20px;
+
+
+}
+
+.Summary .Reaction div h4 {
+    position: relative;
+    left: 100px;
+
+
+}
+
+
+
+
+.Summary .Memory {
+    margin-top: 15px;
+    width: 290px;
+    margin-left: 40px;
+    display: flex;
+
+    color: hsl(39, 100%, 56%);
+    background-color: rgba(255, 176, 31, .1);
+    border-radius: 10px;
+
+}
+
+
+
+.Summary .Memory div h3 {
+    position: relative;
+    left: 20px;
+
+}
+
+.Summary .Memory div h4 {
+    position: relative;
+    left: 100px;
+
+}
+
+.Summary .Verbal {
+    margin-top: 15px;
+
+    width: 290px;
+    margin-left: 40px;
+    display: flex;
+    color: hsl(166, 100%, 37%);
+    background-color: rgba(0, 189, 145, .1);
+    border-radius: 10px;
+
+}
+
+
+.Summary .Verbal div h3 {
+    position: relative;
+    left: 20px;
+
+
+
+}
+
+.Summary .Verbal div h4 {
+    position: relative;
+    left: 115px;
+
+}
+
+
+.Summary .Visual {
+    margin-top: 15px;
+
+    width: 290px;
+    margin-left: 40px;
+    display: flex;
+    color: hsl(234, 85%, 45%);
+    background-color: rgba(17, 37, 212, .1);
+    border-radius: 10px;
+
+}
+
+
+.Summary .Visual div h3 {
+    position: relative;
+    left: 20px;
+
+}
+
+.Summary .Visual div h4 {
+    position: relative;
+    left: 115px;
+
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+
+    color: white;
+    height: 50px;
+    background-color: rgba(48, 59, 90);
+
+    border-style: none;
+    width: 290px;
+    margin-left: 30px;
+
+
+}
+
+.Summary button:hover {
+
+    background-color: rgba(17, 37, 212, .9);
+
+
+}
+
+
+
+
+
+
+
+
+/* end Summary */
+
+
+
+@media (width:375px) {
+
+
+    .container {
+        width: 250px;
+        top: 0%;
+        left: 0%;
+        display: block;
+
+
+
+    }
+
+    .Result {
+        width: 95px;
+        height: 90px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+
+    }
+
+    .Result h2 {
+        font-size: 5px;
+        padding-top: 5px;
+
+
+    }
+
+    .Result .circle {
+        width: 30px;
+        height: 30px;
+        margin-left: 35px;
+    }
+
+    .Result .circle h3 {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 10px;
+        color: white;
+
+
+    }
+
+    .Result .circle h4 {
+        position: absolute;
+        margin-left: 10px;
+
+        margin-top: 15px;
+        font-size: 5px;
+    }
+
+    .container .Result .Great h3 {
+
+        color: white;
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .Result p {
+
+        width: 80px;
+        color: white;
+        font-size: 5px;
+        margin-left: 10px;
+        color: hsl(241, 100%, 89%);
+    }
+
+
+    /* start Summary */
+
+    .Summary {
+        box-sizing: content-box;
+        float: left;
+        display: inline;
+        margin-top: 100px;
+        width: 95px;
+
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 100%);
+
+    }
+
+    .Summary span {
+        color: hsl(241, 100%, 89%);
+    }
+
+    img {
+        margin-left: 5px;
+        width: 10px;
+    }
+
+    .Summary h2 {
+
+        position: relative;
+        font-size: 10px;
+        margin-left: -50px;
+
+
+    }
+
+    .Summary .Reaction {
+        width: 80px;
+        height: 25px;
+        display: flex;
+        margin-left: -90px;
+        margin-top: 5px;
+        position: relative;
+
+
+
+    }
+
+
+    .Summary .Reaction div h3 {
+
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -20px;
+
+
+    }
+
+    .Summary .Reaction div h4 {
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -100px;
+        color: hsl(224, 30%, 27%);
+
+
+    }
+
+
+
+
+    .Summary .Memory {
+        width: 80px;
+        height: 25px;
+        display: flex;
+        margin-left: -90px;
+        position: relative;
+        margin-top: 5px;
+
+    }
+
+
+
+    .Summary .Memory div h3 {
+
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -20px;
+
+
+    }
+
+    .Summary .Memory div h4 {
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -100px;
+        color: hsl(224, 30%, 27%);
+
+
+    }
+
+    .Summary .Verbal {
+        width: 80px;
+        height: 25px;
+        display: flex;
+        margin-left: -90px;
+        position: relative;
+        margin-top: 5px;
+
+    }
+
+
+    .Summary .Verbal div h3 {
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -20px;
+
+    }
+
+    .Summary .Verbal div h4 {
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -125px;
+        color: hsl(224, 30%, 27%);
+
+    }
+
+
+    .Summary .Visual {
+        width: 80px;
+        height: 25px;
+        display: flex;
+        margin-left: -90px;
+        position: relative;
+        margin-top: 5px;
+
+    }
+
+
+    .Summary .Visual div h3 {
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -20px;
+
+    }
+
+    .Summary .Visual div h4 {
+        font-size: 5px;
+        margin-top: 10px;
+        margin-left: -125px;
+
+        color: hsl(224, 30%, 27%);
+
+    }
+
+    button {
+
+
+        border-radius: 30px;
+
+        color: white;
+        font-size: 10px;
+
+        background-color: rgba(48, 59, 90);
+        width: 80px;
+        height: 20px;
+        display: flex;
+        margin-left: -90px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .Summary button:hover {
+
+        background-color: rgba(17, 37, 212, .9);
+
+
+    }
+
+    .Summary button .ContinueDiv {
+        margin-top: 6px;
+        margin-left: 22px;
+        font-size: 5px;
+        font-weight: 800;
+    }
+
+
+
+
+
+
+    /* end Summary */
+
+
+
+}
